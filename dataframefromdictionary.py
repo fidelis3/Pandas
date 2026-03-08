@@ -19,3 +19,16 @@ print(df['Age'])   # Access the 'Age' column
 print(df.iloc[2])   # Access the third row by position
 print(df.loc[1])    # Access the second row by label
 
+#Slicing 
+print(df[['Name', 'Age']])  # Select specific columns
+print(df[1:3])             # Select specific rows
+
+
+#To find unique elements
+unique_dates = df['Age'].unique()
+print(unique_dates)
+
+
+#Saving the DataFrame to a CSV file
+#o save a DataFrame to a CSV file, use the to_csv method and specify the filename with a “.csv” extension.Pandas provides other functions for saving DataFrames in different formats
+df.to_csv('output.csv', index=False)  # Save the DataFrame to a CSV
