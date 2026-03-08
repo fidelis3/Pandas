@@ -1,5 +1,5 @@
-Name,Age,City
-Alice,25,New York
-Bob,30,San Francisco
-Charlie,35,Los Angeles
-David,28,Chicago
+,Name,Age,City
+0,Alice,25,New York
+1,Bob,30,San Francisco
+2,Charlie,35,Los Angeles
+3,David,28,Chicago

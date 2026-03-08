@@ -31,4 +31,4 @@ print(unique_dates)
 
 #Saving the DataFrame to a CSV file
 #o save a DataFrame to a CSV file, use the to_csv method and specify the filename with a “.csv” extension.Pandas provides other functions for saving DataFrames in different formats
-df.to_csv('output.csv', index=False)  # Save the DataFrame to a CSV
+df.to_csv('output.csv', index=True)  # Save the DataFrame to a CSV
