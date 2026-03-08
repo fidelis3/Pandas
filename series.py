@@ -15,3 +15,6 @@ print(s[0])  # Access the first element
 
    #Accessing by position
 print(s.iloc[3]) # Access the element at position 3 (value 40)
+   
+   #Accessing a range of elements
+print(s[1:4])   # Access a range of elements by label
